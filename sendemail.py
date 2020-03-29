@@ -14,6 +14,6 @@ email.set_content(html.substitute({'name': 'Rexha'}), 'html')
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login('ibrahimagp151930@futa.edu.ng', 'Toronto2020.')
+    smtp.login('ibrahimagp1hf0@futa.edu.ng', '*****************.')
     smtp.send_message(email)
     print('All Good.')
